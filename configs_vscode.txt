@@ -1,0 +1,34 @@
+t- Language Support for Java(TM) by Red Hat: Essencial para suporte básico de Java, incluindo IntelliSense, depuração e navegação de código.
+
+- Maven for Java: Fornece suporte para trabalhar com projetos Maven, como executar comandos do Maven diretamente no VS Code (clean, install, package, etc.).
+
+- Spring Boot Extension Pack: Oferece um conjunto de ferramentas específicas para o desenvolvimento com Spring Boot, incluindo o Spring Initializr, Spring Boot Dashboard e suporte a arquivos de configuração.
+
+- Test Runner for Java: Permite executar e depurar testes JUnit e TestNG diretamente no VS Code.
+
+- Lombok Annotations Support: reduzir código boilerplate (getters, setters, etc.), essa extensão é útil para o VS Code reconhecer as anotações do Lombok
+
+- GitHub Copilot: Oferece sugestões de código e funções inteiras em tempo real diretamente no seu editor, ajudando a programar mais rápido. 
+- Live Share: Live Share: Permite que você colabore com outras pessoas em tempo real diretamente do VS Code. Compartilhe seu código e trabalhe em conjunto em edição, depuração, terminais e etc
+- Debugger for Java: Permite depurar código Java no VS Code, incluindo definir breakpoints, inspecionar variáveis e controlar a execução do código.
+
+
+
+
+
+ARQUIVO JSON: 
+
+- apertar ctrl + shift + p 
+- Irá abrir uma busca dentro da barra de pesquisa
+- pesquisar: Preferences: Open User settings (json)
+- abrir o arquivo e colar 
+
+
+{
+    "files.autoSave": "afterDelay",
+    "liveshare.languages.allowGuestCommandControl": true,
+    "liveshare.guestApprovalRequired": true,
+    "liveshare.shareExternalFiles": true,
+    "liveshare.autoShareServers": true,
+    "liveshare.autoShareTerminals": true
+}
